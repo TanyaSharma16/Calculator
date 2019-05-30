@@ -19,7 +19,9 @@ namespace ConsoleCalculator
 
             var calculator = new Calculator();
 
-
+            /*
+             if-else statements should be changed to switch statement
+             */
 
             if (result == "sum")
             {
