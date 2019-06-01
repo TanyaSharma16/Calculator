@@ -4,10 +4,13 @@ using System.Resources;
 namespace CalculatorLogic
 {
 
-    public class Calculator
+    /*
+     * Class Calculator inherits interface ICalculator
+     */
+    public class Calculator : ICalculator
     {
-        public  ResourceManager resourceManager = new ResourceManager(typeof(Resources.ResourceEn));
-        public  string langSelected = "English";
+        public ResourceManager resourceManager = new ResourceManager(typeof(Resources.ResourceEn));
+        public string langSelected = "English";
 
         public ConsoleColor color = ConsoleColor.White;
         /*
@@ -20,7 +23,7 @@ namespace CalculatorLogic
             getResourceManager();
             var x = a + b;
             Console.ForegroundColor = color;
-            Console.WriteLine(resourceManager.GetString("ResultIs")+ $" {x}");
+            Console.WriteLine(resourceManager.GetString("ResultIs") + $" {x}");
             return x;
         }
         /*
