@@ -11,6 +11,8 @@ namespace ConsoleCalculator
     class Program
     {
         static ResourceManager resourceManager = new ResourceManager(typeof(Resources.ResourceEn));
+        Harcoded strings should be taken from resources file
+        */
         static void Main()
         {
             var calculator = new Calculator();
@@ -54,6 +56,8 @@ namespace ConsoleCalculator
             }
             /*
              if-else statements should be changed to switch statement
+             while string comparison, ignore case should be checked
+             calculator.color can be set only one single time
              */
             if (result.Equals("sum",StringComparison.CurrentCultureIgnoreCase) || result.Equals("somme",StringComparison.CurrentCultureIgnoreCase))
                 calculator.Sum(Convert.ToDouble(n1), Convert.ToDouble(n2));
