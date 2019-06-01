@@ -6,6 +6,9 @@ namespace ConsoleCalculator
 {
     class Program
     {
+        /*
+        Harcoded strings should be taken from resources file
+        */
         static void Main()
         {
             Console.Write("Type the operation you want to execute (sum, subtract, multiply, divide): ... ");
@@ -42,6 +45,8 @@ namespace ConsoleCalculator
             }
             /*
              if-else statements should be changed to switch statement
+             while string comparison, ignore case should be checked
+             calculator.color can be set only one single time
              */
             if (result == "sum")
                 calculator.Sum(Convert.ToDouble(n1), Convert.ToDouble(n2));
