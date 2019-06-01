@@ -71,7 +71,11 @@ namespace ConsoleCalculator.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Please choose the color of results from the following options:\nPress 1 for Red\nPress 2 for Blue\nPress 3 for Green\nPress 4 for Yellow.
+        ///   Looks up a localized string similar to Please choose the color of results from the following options:
+        ///Press 1 for Red
+        ///Press 2 for Blue
+        ///Press 3 for Green
+        ///Press 4 for Yellow.
         /// </summary>
         internal static string SelectColor {
             get {

@@ -121,7 +121,10 @@
     <value>Tapez l'opération que vous voulez exécuter (somme, soustraction, multiplication, division): ...</value>
   </data>
   <data name="SelectColor" xml:space="preserve">
-    <value>Veuillez choisir la couleur des résultats parmi les options suivantes: \ nAppuyez sur 1 pour le rouge \ nAppuyez sur 2 pour le bleu \ nAppuyez sur 3 pour le vert \ nAppuyez sur 4 pour le jaune</value>
+    <value>Veuillez choisir la couleur des résultats parmi les options suivantes: Appuyez sur 1 pour le rouge
+Appuyez sur 2 pour le bleu 
+Appuyez sur 3 pour le vert 
+Appuyez sur 4 pour le jaune</value>
   </data>
   <data name="SelectFirstOperand" xml:space="preserve">
     <value>Veuillez saisir le premier opérande:</value>

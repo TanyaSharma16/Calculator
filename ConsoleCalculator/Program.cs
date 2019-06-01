@@ -17,7 +17,7 @@ namespace ConsoleCalculator
         static void Main()
         {
             var calculator = new Calculator();
-            Console.Write("Please select the language from the following options:\nEnglish \nFrench ");
+            Console.Write("Please select the language from the following options:\nEnglish \nFrench\n");
            calculator.langSelected = Console.ReadLine();
         
             if(calculator.langSelected.Equals("French",StringComparison.CurrentCultureIgnoreCase))

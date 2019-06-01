@@ -121,7 +121,11 @@
     <value>Type the operation you want to execute (sum, subtract, multiply, divide): ...</value>
   </data>
   <data name="SelectColor" xml:space="preserve">
-    <value>Please choose the color of results from the following options:\nPress 1 for Red\nPress 2 for Blue\nPress 3 for Green\nPress 4 for Yellow</value>
+    <value>Please choose the color of results from the following options:
+Press 1 for Red
+Press 2 for Blue
+Press 3 for Green
+Press 4 for Yellow</value>
   </data>
   <data name="SelectFirstOperand" xml:space="preserve">
     <value>Please type the first operand:</value>
