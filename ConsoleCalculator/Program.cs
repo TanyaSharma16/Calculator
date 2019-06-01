@@ -11,6 +11,7 @@ namespace ConsoleCalculator
     class Program
     {
         static ResourceManager resourceManager = new ResourceManager(typeof(Resources.ResourceEn));
+       /*
         Harcoded strings should be taken from resources file
         */
         static void Main()
