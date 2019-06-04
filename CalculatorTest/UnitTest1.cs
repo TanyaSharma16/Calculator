@@ -5,6 +5,10 @@ namespace CalculatorTest
 {
     public class UnitTest1
     {
+        /*
+        Description, Summary of parametrs missing
+        Incorrect: should be Assert.Equal(3, x);
+         */
         [Fact]
         public void ShouldAddTwoNumbers()
         {
@@ -12,6 +16,9 @@ namespace CalculatorTest
             Assert.Equal(x, 3);
         }
 
+        /*
+       Description, Summary of parametrs missing
+        */
         [Fact]
         public void ShouldMultiplyTwoNumbers()
         {
